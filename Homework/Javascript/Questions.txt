@@ -1,0 +1,5 @@
+-De == vergelijkt of de waarden gelijk zijn aan elkaar en === vergelijkt of ze precies gelijk zijn. false == 0 is dus true, maar false === 0 niet.
+-A closure is een functie die refereert aan een lokale variabele.
+-Functies die andere functies gebruiken.
+-Takes a selector string and returns an array-like object containing all the elements that it matches.
+ VB: var el = document.querySelector(".myclass");
