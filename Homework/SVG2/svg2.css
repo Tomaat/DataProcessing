@@ -1,0 +1,18 @@
+/*  svg2.css
+    Dataprocessing pset3
+    Lysanne van Beek
+    10544259    */
+
+/* Styling for legend */
+.legend { list-style: none; position: absolute; border: 1px solid black; padding: 9px;} 
+.legend li { margin-right: 0px; }
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+
+.l1 { background: #ffffb2; }
+.l2 { background: #fed976; }
+.l3 { background: #feb24c; }
+.l4 { background: #fd8d3c; }
+.l5 { background: #fc4e2a; }
+.l6 { background: #e31a1c; }
+.l7 { background: #b10026; }
+.l8 { background: black; }
