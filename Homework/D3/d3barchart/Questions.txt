@@ -1,0 +1,27 @@
+Lysanne van Beek
+10544259
+
+1. The select method returns the first element that matches the clause, selectAll matches them all.
+
+2. d represents the data associated with a given selection, i corresponds to the index in an array.
+
+3. 	d3.select("body").append("div").attr("class","barchart1");
+	d3.select("body").append("svg").attr("class","barchart2").attr("width", "10px").attr("height", "10px");
+	
+4. selectAll + data + enter + append: selecteer elementen, prepares one new element for every unmatched data item.  
+	Append creert vervolgens as many elements as there are placeholders returned by enter(). 
+	
+5. The graphics created using Canvas is resolution dependent., whereas SVG is vector in nature. 
+	No pixels are involved in creating SVG’s. They are constructed by drawing from point to point.
+	
+6. 	svg: the container of the figure; 
+		g: the figure itself; 
+			g: the x axis;
+				text: the numbers;
+				line: the ticks;
+			text: the x axis label
+			g: the y axis;
+				text: the numbers;
+				line: the ticks;
+				text: the y axis label
+			rect: the bars;
