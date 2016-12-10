@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <!--
-d3line.html
+d3lineExtended.html
 Dataprocessing pset6
 Lysanne van Beek
 10544259 
 -->
 	<head>
-			<title>D3 line graph</title>
+			<title>D3 line graph extended</title>
 			<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-			<link rel="stylesheet" type="text/css" href="d3line.css"/>
-			<script src="d3line.js"></script>
+			<link rel="stylesheet" type="text/css" href="d3lineExtended.css"/>
+			<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+			<script src="d3lineExtended.js"></script>
 			<script src="https://d3js.org/d3-queue.v2.min.js"></script>
             <script src="https://d3js.org/d3-array.v1.min.js"></script>
             <script src="https://d3js.org/d3-collection.v1.min.js"></script>
@@ -24,9 +25,22 @@ Lysanne van Beek
             <script src="https://d3js.org/d3-shape.v1.min.js"></script>
             <script src="https://d3js.org/d3-axis.v1.min.js"></script>
             <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+			<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+			<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+			<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
             
 	</head>
     <body>
+		<div class="btn-group pull-right">
+			<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+					 Year <span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu">
+				<li><a class="m" value="1995" href="#">1995</a></li>
+				<li><a class="m" value="2015" href="#">2015</a></li>
+			</ul>
+		</div>
+		Click the button in the right upper corner to see the graphs<br>
 		<i>Lysanne van Beek, 10544259</i>
     </body>
 </html>

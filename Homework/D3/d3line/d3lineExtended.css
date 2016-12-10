@@ -1,4 +1,4 @@
-/*  d3line.css
+/*  d3lineExtended.css
     Dataprocessing pset6
     Lysanne van Beek
     10544259    */
@@ -33,4 +33,3 @@ path {
 .graphtitle {
     font-weight:bold;
     font-size:18px;
-}

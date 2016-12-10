@@ -9,14 +9,14 @@ import csv
 import json  
 
 # Open file and read in fieldnames
-f = open('hoorn_2015.csv', 'rU')  
-reader = csv.DictReader(f, fieldnames = ("Date","Average temperature", "Miniumum temperature", "Maximum temperature"), delimiter=';')  
+f = open('hoorn_1995.csv', 'rU')  
+reader = csv.DictReader(f, fieldnames = ("Date","Average_temperature", "Minimum_temperature", "Maximum_temperature"), delimiter=';')  
 
 # Parse the CSV into JSON  
 out = json.dumps([row for row in reader ])  
 print "JSON parsed!"  
 
 # Save the JSON  
-f = open('hoorn_2015.json', 'w')  
+f = open('hoorn_1995.json', 'w')  
 f.write(out)  
 print "JSON saved!"
