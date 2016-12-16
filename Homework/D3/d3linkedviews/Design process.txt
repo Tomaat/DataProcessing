@@ -1,0 +1,6 @@
+"Gross domestic product (GDP) is a monetary measure of the market value of all final goods and services produced in a period." - Wikipedia.
+GDP gedeeld door het aantal inwoners van het land geeft vervolgens GDP per capita. Hoe hoger dit is, des te beter het gaat met de economie van een land. Vervolgens is het ook interessant om te kijken waar landen hun geld aan uitgeven. In de pie graph is weergegeven hoeveel procent van het GDP wordt uitgegeven aan education, health care en military. De verdeling verschilt tussen sommige landen enorm.
+
+Voor de design heb ik bij de map gekozen voor rode tinten zodat het in een oogopslag duidelijk is welk land een hoger GDP heeft. Voor de pie chart heb ik verschillende groene tinten gekozen zodat het niet te veel vloekt. 
+
+Lysanne van Beek, 10544259

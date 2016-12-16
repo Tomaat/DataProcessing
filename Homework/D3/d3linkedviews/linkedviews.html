@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<!--
+linkedviews.html
+Dataprocessing pset7
+Lysanne van Beek
+10544259 
+-->
+
+</html>
+	<head>
+		<title>D3 linked views</title>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src="http://d3js.org/topojson.v1.min.js"></script>
+		<script src="http://datamaps.github.io/scripts/datamaps.world.min.js?v=1"></script>
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <link rel="stylesheet" type="text/css" href="linkedviews.css"/>
+        <script src="linkedviews.js"></script>
+        <script src="https://d3js.org/d3-queue.v2.min.js"></script>
+        <script src="https://d3js.org/d3-array.v1.min.js"></script>
+        <script src="https://d3js.org/d3-collection.v1.min.js"></script>
+        <script src="https://d3js.org/d3-color.v1.min.js"></script>
+        <script src="https://d3js.org/d3-format.v1.min.js"></script>
+        <script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+        <script src="https://d3js.org/d3-time.v1.min.js"></script>
+        <script src="https://d3js.org/d3-time-format.v2.min.js"></script>
+        <script src="https://d3js.org/d3-scale.v1.min.js"></script>
+        <script src="https://d3js.org/d3-path.v1.min.js"></script>
+        <script src="https://d3js.org/d3-shape.v1.min.js"></script>
+        <script src="https://d3js.org/d3-axis.v1.min.js"></script>
+        <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		
+	</head>
+	<body>
+        <div class="btn-group pull-right">
+			<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+					 Year <span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu" role="menu">
+				<li><a class="m" value="2011" href="#">2011</a></li>
+				<li><a class="m" value="2001" href="#">2001</a></li>
+			</ul>
+		</div>
+        <center><h2>GDP per capita (in US $) for each country</h2>
+        <div id="map_container"></div>
+        <div id="pie_container"></div>
+        <div class="blok">
+        <p><i>Lysanne van Beek, 10544259</i></p>
+        Data source: http://data.worldbank.org/
+        </div>
+        </center>
+	</body>
